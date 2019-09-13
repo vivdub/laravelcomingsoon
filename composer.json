@@ -1,5 +1,5 @@
 {
-    "name": "vivdub/commingsoon",
+    "name": "vivdub/CommingSoon",
     "description": "Cooming soon template for laravel",
     "type": "library",
     "license": "MIT",
@@ -12,13 +12,13 @@
     "require": {},
     "autoload": {
     	"psr-4": {
-    	   "vivdub\\commingsoon\\": "packages/vivdub/commingsoon/src",
+    	   "vivdub\\CommingSoon\\": "src/",
     	   "App\\": "app/"
        }
     },
     "autoload-dev": {
     	"psr-4": {
-    	   "vivdub\\commingsoon\\": "packages/vivdub/commingsoon/src",
+    	   "vivdub\\CommingSoon\\": "src/",
     	   "Tests\\": "tests/"
        }
     }
