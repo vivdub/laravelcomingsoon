@@ -21,5 +21,12 @@
     	   "vivdub\\CommingSoon\\": "src/",
     	   "Tests\\": "tests/"
        }
-    }
+    },
+    "extra": {
+    	"laravel": {
+        "providers": [
+      	  "vivdub\\CommingSoon\\CommingSoonProvider"
+        ]
+      }
+    }	
 }
